@@ -1,0 +1,27 @@
+.container__menur-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menur-bar_photo > a > img {
+    max-width: 150px;
+    padding: 1rem;
+}
+
+.menu-bar__links > ul {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.menu-bar__links > ul >li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.menu-bar__links > ul >li > a{
+    cursor: pointer;
+}

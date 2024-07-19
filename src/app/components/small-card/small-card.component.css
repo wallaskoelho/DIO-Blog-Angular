@@ -1,0 +1,39 @@
+
+.container__small-card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.container__small-card-content{
+   display: flex;
+   flex-direction: row;
+}
+
+
+.small-card__photo > a > img{
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.samll-card__title{
+    margin-left: 1rem;
+}
+
+.samll-card__title {
+    display: flex;
+    align-items: center;
+}
+
+.samll-card__title > p{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container__small-card-separator{
+   margin-top: .6rem;
+   margin-bottom: .6rem;
+}
+
