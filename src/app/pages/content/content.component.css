@@ -1,0 +1,32 @@
+#body{
+    display: grid;
+    max-width: 1144px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    grid-template-columns: 3fr;
+    grid-template-areas:
+    "a a a"
+    "b b b"
+    ;
+}
+
+
+.container__article{
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+
+.article__photo > img {
+    max-width: 500px;
+    min-width: 500px;
+    border: solid 5px rgb(196, 188, 188);
+    border-radius: 5px;
+}
+
+.article__description > p {
+    color: gray;
+}

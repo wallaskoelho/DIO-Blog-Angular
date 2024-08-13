@@ -3,9 +3,23 @@
    margin: 0 auto;
    display: grid;
    box-sizing: border-box;
+   grid-template-columns: 3fr;
+   grid-template-areas:
+    "a a a"
+    "b b b"
+    "c c c"
+   ;
 
 }
 
+#containe__header{
+    grid-area: b;
+}
+
+#container__article{
+    grid-area: c;
+    max-width: 100vw;
+}
 
 .container__articles{
     margin-top: 1rem;
